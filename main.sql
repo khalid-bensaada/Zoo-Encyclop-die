@@ -35,4 +35,8 @@ SET name_alimentair = "Herbivore",
 image_animal = "https://tse1.mm.bing.net/th/id/OIP.RWa85d5iuWwb4z86tU_mJwHaFS?pid=Api&P=0&h=180"
 WHERE id_animal = 1;
 
+/*delete the animal have id number 2*/
+DELETE FROM animal
+WHERE id_animal = 2;
+
 
