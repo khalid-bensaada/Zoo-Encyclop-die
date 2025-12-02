@@ -42,4 +42,7 @@ WHERE id_animal = 2;
 /*afechage the list of animales */
 SELECT * FROM animal;
 
+/*added the data of if user add one habitat*/
+INSERT INTO habitats (name_hab , describtion_hab)
+VALUES ( "Foret amazonienne" , "La forêt amazonienne est la plus grande forêt tropicale du monde et est considérée comme le poumon de la Terre en raison de son énorme biodiversité et de ses plantes et animaux rares. ");
 
