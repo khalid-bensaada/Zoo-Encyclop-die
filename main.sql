@@ -19,13 +19,20 @@ CREATE TABLE animal(
 );
 
 /*added the data of if user add one animale*/
-INSERT INTO animal (id_animal, name_animal, image_animal)
-VALUES (1 , "lion" , "https://tse1.mm.bing.net/th/id/OIP.T-SQ5d8n6_jhLDOj3yx7_wHaEK?pid=Api&P=0&h=180 ");
+INSERT INTO animal (name_alimentair , image_animal)
+VALUES ( "carnivore" , "https://tse1.mm.bing.net/th/id/OIP.T-SQ5d8n6_jhLDOj3yx7_wHaEK?pid=Api&P=0&h=180 ");
 
 /*added the data of if user add many animales*/
-INSERT INTO animal ( name_animal, image_animal)
-VALUES ( "lion" , "https://tse1.mm.bing.net/th/id/OIP.T-SQ5d8n6_jhLDOj3yx7_wHaEK?pid=Api&P=0&h=180 "),
-( "fish", "https://tse4.mm.bing.net/th/id/OIP.xRrB_f7LSd3AfjjqYR6pDAHaEK?pid=Api&P=0&h=180"),
-("tiger","https://tse3.mm.bing.net/th/id/OIP.wYKbiPYohf2SKxF02sSgHAHaEJ?pid=Api&P=0&h=180"),
-( "snake","https://tse1.mm.bing.net/th/id/OIP.bdTDfzNFuYC1AUrd0TvhtgHaEK?pid=Api&P=0&h=180");
+INSERT INTO animal ( name_alimentair, image_animal)
+VALUES ( "carnivore" , "https://tse1.mm.bing.net/th/id/OIP.T-SQ5d8n6_jhLDOj3yx7_wHaEK?pid=Api&P=0&h=180 "),
+( "carnivore", "https://tse4.mm.bing.net/th/id/OIP.xRrB_f7LSd3AfjjqYR6pDAHaEK?pid=Api&P=0&h=180"),
+("carnivore","https://tse3.mm.bing.net/th/id/OIP.wYKbiPYohf2SKxF02sSgHAHaEJ?pid=Api&P=0&h=180"),
+( "carnivore","https://tse1.mm.bing.net/th/id/OIP.bdTDfzNFuYC1AUrd0TvhtgHaEK?pid=Api&P=0&h=180");
+
+/* Update a animale have id 1 */
+UPDATE animal
+SET name_alimentair = "Herbivore",
+image_animal = "https://tse1.mm.bing.net/th/id/OIP.RWa85d5iuWwb4z86tU_mJwHaFS?pid=Api&P=0&h=180"
+WHERE id_animal = 1;
+
 
