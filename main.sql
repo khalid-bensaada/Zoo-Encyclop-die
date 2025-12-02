@@ -39,4 +39,7 @@ WHERE id_animal = 1;
 DELETE FROM animal
 WHERE id_animal = 2;
 
+/*afechage the list of animales */
+SELECT * FROM animal;
+
 
