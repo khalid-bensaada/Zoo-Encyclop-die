@@ -5,7 +5,7 @@ CREATE DATABASE zoo;
 CREATE TABLE habitats(
 	id_hab int PRIMARY KEY AUTO_INCREMENT,
     name_hab varchar(100),
-    describtion_hab varchar(500)
+    describtion_hab TEXT
 );
 
 /* create table for animales with parameter id & name & name of alimentair & image and linke it with table of habitats*/
