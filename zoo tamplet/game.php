@@ -1,3 +1,13 @@
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "zoo";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+?>
 <!DOCTYPE html>
 
 <html class="light" lang="en">
@@ -69,15 +79,15 @@
             <div class="flex flex-1 justify-end">
               <div class="flex items-center gap-9">
                 <a class="text-[#131811] dark:text-gray-300 text-sm font-medium leading-normal"
-                  href="Home.html">Home</a>
+                  href="Home.php">Home</a>
                 <a class="text-[#131811] dark:text-gray-300 text-sm font-medium leading-normal"
-                  href="animales.html">Animals</a>
+                  href="animales.php">Animals</a>
                 <a class="text-[#131811] dark:text-gray-300 text-sm font-medium leading-normal"
-                  href="Habitats.html">Habitats</a>
+                  href="Habitats.php">Habitats</a>
                 <a class="text-[#131811] dark:text-gray-300 text-sm font-medium leading-normal"
-                  href="game.html">Game</a>
+                  href="game.php">Game</a>
                 <a class="text-[#131811] dark:text-gray-300 text-sm font-medium leading-normal"
-                  href="statistique.html">Statistics</a>
+                  href="statistique.php">Statistics</a>
               </div>
             </div>
           </header>
